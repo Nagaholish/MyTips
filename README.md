@@ -1,6 +1,12 @@
 # MyTips
 MyTips Collection
 
+## time コマンド
+
+> time git clone ....
+
+とやるだけで、処理時間計測ができる
+
 ## bash のプロンプト表示の変更
 
 .bashrc に
