@@ -1,6 +1,13 @@
 # MyTips
 MyTips Collection
 
+## Slack
+
+- postMessage
+ > curl -XPOST -d "text=hogehoge" -d "token=xoxb-xxxx-yyyy-zzzz" -d "channel=@{userID}" "https://slack.com/api/chat.postMessage"
+- fileUpload
+> curl -F file=@{filepath} -F "initial_comment={text}" -F channels={userID/@無し} -H "Authorization: Bearer xoxb-xxxx-yyyy-zzzz" https://slack.com/api/files.upload
+
 ## time コマンド
 
 > time git clone ....
